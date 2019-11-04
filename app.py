@@ -18,10 +18,10 @@ db = SQLAlchemy(app)
 
 kassa = FK()
 
-bot = TeleBot('982289200:AAGs-xuy7PHgsEXDQui4uFATxgOpKHtMlSw')
+bot = TeleBot('85760516:AAFzUYYL8hv6smZjL6boV_PCOlg1yqYJras')
 
-admins = [865473632]
+admins = [677805757]
 
-WEBHOOK_URL = f''
-WEBHOOK_LISTEN = ''
-WEBHOOK_PORT = 
+WEBHOOK_URL = f'https://bitpif.herokuapp.com/" + TOKEN'
+WEBHOOK_LISTEN = '0.0.0.0'
+WEBHOOK_PORT = PORT
